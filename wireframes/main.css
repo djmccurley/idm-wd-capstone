@@ -100,6 +100,17 @@ footer {
 	float: left;
 	margin: 0 1.665% 0 1.665%;
 }
+
+.footer_social_menu {
+	list-style: none;
+	padding: 0;
+	margin: 0
+ }
+
+ .footer_social_menu li {
+ 	display: inline-block;
+ 	margin-right: 1rem;
+ }
 .clearfix:before,
 .clearfix:after {
   content: " ";
