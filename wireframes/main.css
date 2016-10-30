@@ -111,6 +111,26 @@ footer {
  	display: inline-block;
  	margin-right: 1rem;
  }
+
+
+
+.article_banner {
+ 	height: 40vh;
+ 	background-image: url(http://placehold.it/1000x400);
+	background-size: cover;
+ }
+
+.article_header, .article_content {
+	padding: 0rem 3rem;
+}
+
+.article_content img {
+	display: block;
+	width: 45%;
+	margin-right: 5%;
+	float: left;
+	margin-bottom: 1.4rem;
+}
 .clearfix:before,
 .clearfix:after {
   content: " ";
