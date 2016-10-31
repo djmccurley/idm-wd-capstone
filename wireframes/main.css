@@ -69,8 +69,8 @@ body {
 	height: 50vh;
 	width: 30%;
 	float: left;
-	margin: 0 1.665% 0 1.665%;
-	background-image: url(http://placehold.it/400x500);
+	margin: 1.665%;
+	background-image: url(http://placehold.it/200x300);
 	background-size: cover;
 	position: relative;
 }
@@ -101,13 +101,13 @@ footer {
 	margin: 0 1.665% 0 1.665%;
 }
 
-.footer_social_menu {
+.footer_menu {
 	list-style: none;
 	padding: 0;
 	margin: 0
  }
 
- .footer_social_menu li {
+ .footer_menu li {
  	display: inline-block;
  	margin-right: 1rem;
  }
@@ -117,6 +117,12 @@ footer {
 .article_banner {
  	height: 40vh;
  	background-image: url(http://placehold.it/1000x400);
+	background-size: cover;
+ }
+
+ .category_banner {
+ 	height: 20vh;
+ 	background-image: url(http://placehold.it/1000x200);
 	background-size: cover;
  }
 
