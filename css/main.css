@@ -118,14 +118,16 @@ a:link, a:visited {
 }
 
 .menu_bar {
-    padding: .75rem;
-    background-color: rgba(0,0,0,0);
+    padding: .75rem 2rem;
     z-index: 5;
+    position: fixed;
+    background: linear-gradient(0deg, rgba(0,0,0,0), rgba(0,0,0,.6));
+    width: 100%;
 
 }
 .logo {
     font-size: 2rem;
-    display: inline-block;
+    display: block;
     float: left;
     margin: 0rem;
     font-family: 'Bungee Shade', sans-serif;
@@ -134,8 +136,9 @@ a:link, a:visited {
 .nav_menu {
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding: .75rem 0 0 0;
     float: right;
+    vertical-align: middle;
 }
 
 .nav_menu li {
@@ -147,25 +150,26 @@ a:link, a:visited {
     height: 100vh;
     background-image: url(../img/paella_1200.jpg);
     background-size: cover;
-    margin-top: -5rem;
+    position: relative;
+    /*margin-top: -6rem;*/
 }
 
 .hero_copy {
     display: inline-block;
-    padding-left: 45%;
-    padding-top: 50%;
-
+    position: absolute;
+    top: 55%;
+    left: 50%;
 }
 
 .hero_copy h2 {
     margin: 0;
-    font-size: 4rem;
+    font-size: 15vh;
     font-weight: 800;
     line-height: 1.1em;
 }
 
 .feature_article {
-    height: 45vh;
+    height: 50vh;
     background-image: url(../img/tomato_1200.jpg);
     background-size: cover;
 }
@@ -175,18 +179,33 @@ a:link, a:visited {
 }
 
 .article_copy {
-    width: 35%;
+    width: 50%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 5%;
+}
+
+.article_copy h2 {
+    font-size: 8vh;
+    line-height: 0;
+    margin-bottom: 2rem;
+}
+
+.feature_article:nth-of-type(2) .article_copy {
+    text-align: right;
+    left: 40%;
 }
 
 .content_gallery {
-    padding: 0 1rem 1rem 1rem;
+    padding: 0 1rem 0rem 1rem;
 }
 
 .content_tile {
     height: 50vh;
     width: 30%;
     float: left;
-    margin: 1.665%;
+    margin: 2rem 1.665%;
     background-image: url(../img/eat_tile.jpg);
     background-size: cover;
     position: relative;
@@ -202,18 +221,21 @@ a:link, a:visited {
 
 .content_tile h3 {
     position: absolute;
-    bottom: 0%;
+    font-size: 8vh;
+    top: 50%;
+    transform: translateY(-50%);
     width: 100%;
     margin: 0;
     padding: .5rem 0 .5rem .5rem;
     text-align: center;
-    background-color: #fff;
+    /*background-color: #fff;*/
     display: block;
 }
 
 footer {
     padding: 1rem;
     background-color: #041c52;
+    font-size: .8rem;
 }
 .footer_tile_1_3 {
     width: 30%;
