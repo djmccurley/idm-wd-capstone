@@ -170,7 +170,7 @@ a:link, a:visited {
 
 .feature_article {
     height: 50vh;
-    background-image: url(../img/tomato_1200.jpg);
+    background-image: url(../img/tortilla_1200.jpg);
     background-size: cover;
 }
 
@@ -260,11 +260,23 @@ footer {
     margin-right: 1rem;
  }
 
+input {
+    color: #041c52;
+    display: inline-block;
+    margin-right: .5rem;
+}
+button {
+    background-color: #fff;
+    color: #041c52;
+}
 
+.full_article {
+    color: #02080d;
+}
 
 .article_banner {
     height: 40vh;
-    background-image: url(http://placehold.it/1000x400);
+    background-image: url(../img/tortilla_1200.jpg);
     background-size: cover;
  }
 
@@ -274,16 +286,60 @@ footer {
     background-size: cover;
  }
 
-.article_header, .article_content {
-    padding: 0rem 3rem;
+.article_header {
+    
+    text-align: right;
+    display: inline-block;
 }
 
-.article_content img {
+h2 {
+
+}
+
+.article_header h2{  
+    padding: .8em 0 0 1em;
+        font-size: 4em;
+    color: #ed1c24;
+    margin: 0;
+}
+
+
+.content_gallery h2 {
+    padding: .8em 0 0 1rem;   
+            font-size: 4em;
+    color: #ed1c24;
+    margin: 0;
+}
+
+.article_header p {
+    color: #ed1c24;
+
+}
+.article_content {
+    padding-left: 35%;
+    padding-right: 3.5rem;
+}
+
+.img_pullout {
+    padding: 2rem 0;
+}
+
+.img_pullout img {
     display: block;
-    width: 45%;
-    margin-right: 5%;
+    width: 49%;
     float: left;
     margin-bottom: 1.4rem;
+}
+
+.img_pullout img:nth-of-type(2) {
+    float: right;
+}
+
+.citation {
+    font-size: .8rem;
+}
+.citation a {
+    color: inherit;
 }
 .clearfix:before,
 .clearfix:after {
