@@ -148,7 +148,7 @@ a:link, a:visited {
 
 .hero {
     height: 100vh;
-    background-image: url(../img/paella_1200.jpg);
+    background-image: url(../img/paella_2000@30.jpg);
     background-size: cover;
     position: relative;
     /*margin-top: -6rem;*/
@@ -159,6 +159,7 @@ a:link, a:visited {
     position: absolute;
     top: 55%;
     left: 50%;
+
 }
 
 .hero_copy h2 {
@@ -170,12 +171,12 @@ a:link, a:visited {
 
 .feature_article {
     height: 50vh;
-    background-image: url(../img/tortilla_1200.jpg);
+    background-image: url(../img/tortilla_2000@50.jpg);
     background-size: cover;
 }
 
 .feature_article:nth-of-type(2) {
-    background-image: url(../img/pizza_1200.jpg);
+    background-image: url(../img/pizza_2000@30.jpg);
 }
 
 .article_copy {
@@ -206,17 +207,17 @@ a:link, a:visited {
     width: 30%;
     float: left;
     margin: 2rem 1.665%;
-    background-image: url(../img/eat_tile.jpg);
+    background-image: url(../img/eat_tile_1000@30.jpg);
     background-size: cover;
     position: relative;
 }
 
 .content_tile:nth-of-type(2) {
-    background-image: url(../img/drink_tile.jpg);
+    background-image: url(../img/drink_tile_1000.jpg);
 }
 
 .content_tile:nth-of-type(3) {
-    background-image: url(../img/travel_tile.jpg);
+    background-image: url(../img/travel_tile_1000.jpg);
 }
 
 .content_tile h3 {
@@ -276,7 +277,7 @@ button {
 
 .article_banner {
     height: 40vh;
-    background-image: url(../img/tortilla_1200.jpg);
+    background-image: url(../img/tortilla_2000@50.jpg);
     background-size: cover;
  }
 
