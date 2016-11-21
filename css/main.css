@@ -139,6 +139,7 @@ a:link, a:visited {
     padding: .75rem 0 0 0;
     float: right;
     vertical-align: middle;
+    font-weight: 700;
 }
 
 .nav_menu li {
@@ -176,9 +177,12 @@ a:link, a:visited {
 }
 
 .feature_article:nth-of-type(2) {
-    background-image: url(../img/pizza_2000@30.jpg);
+    background-image: url(../img/pintxos.jpg);
 }
 
+.feature_article:nth-of-type(3) {
+    background-image: url(../img/tomato_1200.jpg);
+}
 .article_copy {
     width: 50%;
     position: relative;
@@ -189,7 +193,7 @@ a:link, a:visited {
 
 .article_copy h2 {
     font-size: 8vh;
-    line-height: 0;
+    line-height: 1.2em;
     margin-bottom: 2rem;
 }
 
@@ -277,9 +281,24 @@ button {
 
 .article_banner {
     height: 40vh;
-    background-image: url(../img/tortilla_2000@50.jpg);
     background-size: cover;
  }
+
+.tortilla {
+    background-image: url(../img/tortilla_2000@50.jpg);
+}
+
+.pintxos {
+    background-image: url(../img/pintxos.jpg);
+}
+
+.travel {
+    background-image: url(../img/travel_banner.jpg);
+}
+
+.sidra {
+    background-image: url(../img/sidra_banner.jpg);   
+}
 
  .category_banner {
     height: 20vh;
@@ -293,11 +312,16 @@ button {
     display: inline-block;
 }
 
+.category_header {
+    text-align: left;
+    display: inline-block;
+}
+
 h2 {
 
 }
 
-.article_header h2{  
+.article_header h2, .category_header h2{  
     padding: .8em 0 0 1em;
         font-size: 4em;
     color: #ed1c24;
@@ -307,14 +331,17 @@ h2 {
 
 .content_gallery h2 {
     padding: .8em 0 0 1rem;   
-            font-size: 4em;
+    font-size: 4em;
     color: #ed1c24;
     margin: 0;
 }
 
-.article_header p {
+.article_header p, .category_header p {
     color: #ed1c24;
+}
 
+.category_header p {
+    padding: .8em 0 0 4rem;
 }
 .article_content {
     padding-left: 35%;
@@ -332,8 +359,12 @@ h2 {
     margin-bottom: 1.4rem;
 }
 
-.img_pullout img:nth-of-type(2) {
+.img_pullout img:nth-of-type(even) {
     float: right;
+}
+
+.title {
+    font-weight: 700;
 }
 
 .citation {
