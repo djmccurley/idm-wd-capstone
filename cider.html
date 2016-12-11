@@ -11,17 +11,18 @@
         <!-- Place favicon.ico in the root directory -->
 
         <link rel="stylesheet" href="css/normalize.css">
-        <link href="https://fonts.googleapis.com/css?family=Bungee+Shade|Raleway:400,700,800" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Raleway:400,700,800" rel="stylesheet">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <script src="https://use.fontawesome.com/a26c54cc82.js"></script>
     </head>
 	<body>
 		<header class="menu_bar clearfix">
 			<h1 class="logo"><a href="index.html">Comer</a></h1>
 			<nav class='clearfix'>
 				<ul class="nav_menu">
-					<a href="category.html"><li>Eat</li></a>
-					<a href="category.html"><li>Drink</li></a>
+					<a href="eat.html"><li>Eat</li></a>
+					<a href="drink.html"><li>Drink</li></a>
 					<a href="travel.html"><li>Travel</li></a>
 				</ul>
 			</nav>
@@ -33,7 +34,7 @@
 				<p>Learning about El Escanciado</p>
 			</header>
 			<section class="article_content">
-				<p>Cider (sidra) is a way of life in Asturias. Asturians drink cider at all times of the day, wherever they are. On the beach, in their houses, with lunch, with dinner and probably breakfast, before going to bed, when they’re happy, sad or bored. Sidrerías blanket Oviedo, particularly on Calle Gascona, otherwise known as the Boulevard of Cider.</p>
+				<p>Cider (sidra) is a way of life in Asturias. Asturians drink cider at all times of the day, wherever they are. On the beach, in their houses, with lunch, with dinner and probably breakfast, before going to bed, when they’re happy, sad or bored. Sidrerías blanket Oviedo, particularly on <span class="title">Calle Gascona</span>, otherwise known as the Boulevard of Cider.</p>
 
 				<p><img src="img/pouring-sidra.jpg" class="img_inline" alt="pouring sidra"></p>
 
@@ -53,36 +54,46 @@
 				</p>
 			</section>	
 		</article>
-		<section class="content_gallery clearfix">
-			<h2>Further Reading</h2>
-			<div class="content_tile">
-				<h3><a href="article.html">Related Article</a></h3>
-			</div>
-			<div class="content_tile">
-				<h3><a href="article.html">Related Article</a></h3>
-			</div>
-			<div class="content_tile">
-				<h3><a href="article.html">Related Article</a></h3>
-			</div>
-		</section>
+    <section class="content_gallery clearfix">
+    		<h2>Further Reading</h2>
+        <a href="paella.html"  class="content_tile paella">
+            <div class="hover_area">
+                <h3>Nice Rice!</h3>
+            </div>
+        </a>  
+        <a href="pintxos.html"  class="content_tile pintxos">
+            <div class="hover_area">
+                <h3>Pintxos in San Sebastián</h3>
+            </div>
+        </a>    
+        <a href="tortilla.html" class="content_tile tortilla">
+            <div class="hover_area">
+                <h3>Tortilla Española</h3>
+            </div>
+        </a>  
+    </section>
 		<footer class="clearfix">
-			<div class="footer_tile_2_3">
-				<ul class="footer_menu">
-					<a href=#!><li>About</li></a>
-					<a href=#!><li>Where to Buy</li></a>
-				</ul>
-				<p>Copyright Info</p>
-				<ul class="footer_menu">
-					<a href=#!><li>Social Link</li></a>
-					<a href=#!><li>Social Link</li></a>
-					<a href=#!><li>Social Link</li></a>
-				</ul>
-			</div>
-			<div class="footer_tile_1_3">
-				<h3>Email Sign Up</h3>
-				<input>
-				<button>Submit</button>
-			</div>
-		</footer>
+            <div class="footer_tile_2_3">
+                <p>
+                    <ul class="footer_menu">
+                        <a href=#!><li><i class="fa fa-facebook" aria-hidden="true"></i></li></a>
+                        <a href=#!><li><i class="fa fa-instagram" aria-hidden="true"></i></li></a>
+                        <a href=#!><li><i class="fa fa-twitter" aria-hidden="true"></i>
+</li></a>
+                    </ul>
+                </p>
+                <p>
+                    <ul class="footer_menu">
+                        <li class="meta_info">&copy; 2016 – Dan McCurley</li> 
+                        <a href="about.html" class="meta_info"><li>About This Site</li></a>
+                    </ul>
+                </p> 
+            </div>
+            <div class="footer_tile_1_3">
+                <h3>Email Sign Up</h3>
+                <input>
+                <button>Submit</button>
+            </div>
+        </footer>
 	</body>
 </html>
