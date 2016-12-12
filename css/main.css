@@ -477,6 +477,20 @@ button:hover, button:focus {
         font-size: 2.5em;
     }
 
+    .article_copy {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    left: 0%;
+
+    }
+
+.feature_article:nth-of-type(2) .article_copy {
+    text-align: center;
+    left: 0%;
+
+    }
+
     .article_banner {
         height: 20vh;
     }
